@@ -210,7 +210,7 @@ body{
     padding: 20px;
 }
 .solution_item{
-    width: 420px;
+   
     border: 3px solid rgba(132, 84, 245, 0.4);
     border-radius: 20px;
     transition: 0.4s;
