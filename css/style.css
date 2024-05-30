@@ -1,0 +1,367 @@
+/* all common css start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+ul,ol{
+    list-style-type: none;
+}
+a,a:hover{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+body{
+    background: url(../images/Header\(1\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* all common css start */
+
+
+
+
+
+/* header part start */
+.nav-link {
+	display: block;
+	padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+	font-size: var(--bs-nav-link-font-size);
+	font-weight: var(--bs-nav-link-font-weight);
+	color: var(--bs-nav-link-color);
+	text-decoration: none;
+	background: 0 0;
+	border: 0;
+
+}
+
+.collapse  .navbar-nav .nav-item  a{
+    padding-right: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+   
+}
+.nav-item i{
+    padding-left: 5px;
+    vertical-align: middle;
+  font-weight: 600;
+   
+}
+
+.header_btn a{
+    padding: 25px 25px;
+    background: #8454F5;
+    color:white ;
+    border-radius: 18px;
+}
+    
+/* header part end */
+
+
+
+/* banner part start */
+#banner_part{
+    padding-top: 100px;
+}
+.col-lg-7{
+    padding-top: 100px;
+}
+.col-lg-7 h1{
+    font-size: 64px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    line-height: 80px;
+    color: #29313D;
+}
+.col-lg-7 p{
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    font-family: "Nunito", sans-serif;
+    color: #29313D;
+    width: 516px;
+    padding-left: 10px;
+    border-left: 5px solid #FFC556;
+}
+.btn_singup{
+    position: relative;
+}
+.btn_singup input{
+    padding: 30px 20px;
+    width: 80%;
+    background: rgba(132, 84, 245, 0.15);
+    border: none;
+    border-radius: 20px;
+    
+}
+.btn_singup input::placeholder{
+    color: #29313D;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: "Nunito", sans-serif;
+    opacity: 1;
+}
+.extra a{
+    padding: 20px 35px;
+    background: #8454F5;
+    color:white ;
+    border-radius: 18px;
+    position: absolute;
+    top:10px ;
+    right: 195px;
+}
+
+
+/* banner part end */
+
+
+
+/* logos part start */
+#logos_part{
+    padding:50px; 
+ }
+ 
+/* logos part end */
+
+
+/* solution part start */
+#solution_part{
+    padding: 50px;
+}
+.col-lg-6{
+    padding-bottom: 100px;
+}
+.col-lg-6 h3{
+    font-size: 56px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    line-height: 80px;
+    color: #29313D;
+    padding-right: 10px;
+}
+.col-lg-6 p{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+    font-family: "Nunito", sans-serif;
+    color: #29313D; 
+    border-left: 5px solid #FFC556;
+    margin-top: 26px;
+    padding-left: 10px;
+}
+
+ 
+
+.icon_width_heading{
+    display: flex;
+
+}
+.box{
+    margin:20px;
+    transition: 0.4s;
+}
+.box i{
+    padding: 20px ;
+    background: rgba(255, 196, 86, 0.15);
+    border-radius: 14px;
+    font-size: 28px;
+    font-weight: 700;
+    color: #FFC556;
+    transition: 0.4s;
+}
+.icon_width_heading h3{
+    font-size: 28px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    line-height: 110px;
+    color: #29313D;
+    transition: 0.4s;
+}
+
+
+.solution_item p{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 25px;
+    font-family: "Nunito", sans-serif;
+    color: #29313D;
+   padding-left: 20px;
+    text-transform: capitalize;
+    padding-right: 30px;
+    transition: 0.4s;
+}
+.read_btn a{
+    font-size: 20px;
+    font-weight: 600;   
+    font-family: "Nunito", sans-serif;
+    color: #29313D;
+    text-transform: capitalize;
+    transition: 0.4s;
+}
+.read_btn{
+    padding: 20px;
+}
+.solution_item{
+    width: 420px;
+    border: 3px solid rgba(132, 84, 245, 0.4);
+    border-radius: 20px;
+    transition: 0.4s;
+}
+.col-lg-4{
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+.solution_item:hover{
+ background: #8454F5;
+}
+.solution_item:hover .icon_width_heading .box{
+    background: rgba(132, 84, 245, 0.40);
+}
+.solution_item:hover .icon_width_heading .box i{
+    color: white;
+}
+.solution_item:hover .icon_width_heading  h3{
+    color: white;
+}
+.solution_item:hover p{
+    color: white;
+}
+.solution_item:hover a{
+    color: white;
+}
+.one i{
+    background: rgba(21, 115, 202, 0.15);
+    border-radius: 14px;
+    font-size: 28px;
+    font-weight: 700;
+    color: blue;
+    transition: 0.4s;
+}
+.two i{
+background:rgba(34, 139, 34, 0.178);
+border-radius: 14px;
+font-size: 28px;
+font-weight: 700;
+color: forestgreen;
+transition: 0.4s;
+}
+.three i{ 
+background:rgba(255, 68, 0, 0.151);
+border-radius: 14px;
+font-size: 28px;
+font-weight: 700;
+color: orangered;
+transition: 0.4s;
+}
+.four i{
+   
+background: rgba(255, 0, 0, 0.164);
+border-radius: 14px;
+font-size: 28px;
+font-weight: 700;
+color: rgba(255, 0, 0, 0.452);
+transition: 0.4s;
+}
+.five i{
+   
+background: rgba(0, 128, 128, 0.178);
+border-radius: 14px;
+font-size: 28px;
+font-weight: 700;
+color: teal;
+transition: 0.4s;
+}
+
+/* solution part end */
+
+
+/* task part start */
+#task_part{
+    padding: 300px 0;
+    padding-bottom: 1000px;
+    
+}
+.col-lg-6{
+    position: relative;
+    justify-content: space-between;
+}
+.rectangular{
+    position: absolute;
+    height:733px ;
+    width: 671px;
+    z-index: -1;
+    top: -103px;
+    left: -315px;
+   
+}
+.card_one{
+    position: absolute;
+    top: 120px;
+    left: 6px;
+   
+}
+.card_two {
+    position: absolute;
+    top: -45px;
+    right: 141px;
+    padding-left: 226px;
+
+
+}
+.card_three{
+    position: absolute;
+    top: 292px;
+    right: 181px;
+    padding-left: 226px;
+}
+.col-lg-6 h3{
+    font-size: 56px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    line-height: 80px;
+    color: #29313D;
+    padding-top: 50px;
+}
+.task p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    font-family: "Nunito", sans-serif;
+    color: hsl(216, 20%, 20%);
+    border: none;
+    padding-left: 0px;
+}
+.col-lg-6 a{
+    padding: 20px 35px;
+    background: #8454F5;
+    color:white ;
+    border-radius: 18px;
+}
+.btn_task{
+    padding-top: 60px;
+}
+
+/* task part end */
+/* header part start */
+
+/* header part end */
+/* header part start */
+
+/* header part end */
+/* header part start */
+
+/* header part end */
+/* header part start */
+
+/* header part end */
+/* header part start */
+
+/* header part end */
